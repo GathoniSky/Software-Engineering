@@ -73,12 +73,15 @@ a img{
     border-color: #3E393A;
 }
 
-*{box-sizing: border-box;}
+*{
+    box-sizing: border-box;
+}
 
 .slideshow{
     max-width: 1000px;
     margin: auto;
     position: relative;
+    padding-top: 100px;
 }
 
 .slide {
@@ -109,18 +112,10 @@ a img{
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.numbertext{
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-
 .dot{
     cursor: pointer;
-    height: 15px;
-    width: 15px;
+    height: 10px;
+    width: 10px;
     margin: 0 2px;
     background-color: #bbb;
     border-radius: 50%;
