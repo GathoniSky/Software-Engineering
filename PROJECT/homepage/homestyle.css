@@ -166,6 +166,10 @@ a img{
     max-width: 180px;
 }
 
+#connectmap{
+    padding-left: 50px;
+}
+
 .column {
     padding: 80px 20px 20px;
 }
