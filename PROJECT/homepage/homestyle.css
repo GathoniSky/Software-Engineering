@@ -133,13 +133,14 @@ a img{
     padding: 20px;
     background-color: #F49C63;
     border-radius: 20px;
-    font-size: 30px;
+    font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .steps{
     padding-top: 0px;
     background-color: #fff;
+    border-style: solid;
 }
 
 .heading{
