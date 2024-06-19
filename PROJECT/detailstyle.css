@@ -239,9 +239,36 @@ footer {
   /*End of the pet questions editing*/
 
   /*sky*/
+.vet-menu {
+  color: #F49C63;
+  padding: 1em;
+  text-align: center;
+}
+.vet-menu a {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  text-decoration: double;
+  border-radius: 30px;
+  border-style: dotted;
+  border-width: 2px;
+  font-weight: bold;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+}
+.vet-menu a:hover {
+  color: #f9f9f9;
+}
 
   /*sky*/
-
+  .profile-card, .consultations-card, .new-consultations-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 30%;
+}
 
   /*Resi*/
 .questions{
