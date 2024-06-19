@@ -1,10 +1,8 @@
-
 /* Wayne's Code */
 header{
     background-color: #F49C63;
     color: #3E393A;
 
->>>>>>> 038f823eb3b6e6f8f905a49d19b4c86028dbdd75
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -137,6 +135,10 @@ a img{
     border-radius: 20px;
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.steps{
+    background-color: #fff;
 }
 
 .column {
