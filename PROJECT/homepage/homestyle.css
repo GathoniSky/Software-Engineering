@@ -138,7 +138,14 @@ a img{
 }
 
 .steps{
+    padding-top: 0px;
     background-color: #fff;
+}
+
+.heading{
+    padding-left: 220px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .column {
