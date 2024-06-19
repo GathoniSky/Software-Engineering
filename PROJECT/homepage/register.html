@@ -7,7 +7,7 @@
         <meta name="description" content="Our mission: To connect pet owners with vets">
         <meta name="keywords" content="pets">
         <meta name="charset" content="UTF-8">
-        <link rel="stylesheet" href="images/logo.png">
+        <link rel="shortcut icon" href="images/logo.png">
         <link rel="stylesheet" href = "homestyle.css">
     </head>
     <body>
@@ -17,10 +17,32 @@
                     <img id="logo" src="images/logo.png" alt="Logo">
                 </a>
             </div>
+            <nav class="aboutus">
+                <div >
+                    <a href="aboutus.html">
+                        <i class="fas fa-home"></i> About Us
+                    </a>
+                </div>
+            </nav>
 
+            <nav class="menu">
+                <a href="login.html">
+                    <i class="fas fa-home"></i> Login 
+                </a>
+                <a href="vetregister.html">
+                    <i class="fas fa-home"></i> Vet Register
+                </a>
+                
+            </nav>
+      
         </header>
 
         <main>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             <div class="container">
                 <div class="register-form">
                     <h2>Create a New Account</h2>
@@ -29,20 +51,12 @@
                         <input type="email" id="email" name="email" required>
                         <label for="password">Password:</label>
                         <input type="password" id="password" name="password" required>
+                        <label for="password">Confrim Password:</label>
+                        <input type="password" id="password" name="password" required>
                         <button type="submit">Register</button>
+                        
                     </form>
-                    <p>Or register with:</p>
-                    <div class="social-login">
-                        <a href="#" id="googleBtn" class="google-btn">
-                            <img src="google-logo.png" alt="Google Logo">
-                            Register with Google
-                        </a>
-                        <a href="#" id="appleBtn" class="apple-btn">
-                            <img src="apple-logo.png" alt="Apple Logo">
-                            Register with Apple
-                        </a>
-                    </div>
-                    <p>Already have an account? <a href="#">Login</a></p>
+                    <p>Already have an account? <a href="login.html">Login</a></p>
                 </div>
             </div>
         </main>
@@ -53,9 +67,8 @@
         <br>
         <br>
         <br>
-        <br>
         <footer>
             Pet Connect &copy; 2024
         </footer>
-    </body>
+
 </html>
