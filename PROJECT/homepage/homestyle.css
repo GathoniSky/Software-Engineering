@@ -149,3 +149,127 @@ footer{
 }
 /*End of Wayne's code*/
 
+
+
+
+/* Alex start for login*/
+
+
+.container {
+    max-width: 00px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+    background-color: #f8f9fa;
+    padding: 24px;
+    border-radius: 5px;
+}
+
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="email"], input[type="password"] {
+    width: 530px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    background-color: #F49C63;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #F49C63;
+}
+
+/*end for login*/
+
+
+/*start for register*/
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.register-form {
+    background-color: #f8f9fa;
+    padding: 28px;
+    border-radius: 5px;
+}
+
+.register-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.register-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form label {
+    margin-bottom: 5px;
+}
+
+.register-form input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.register-form button {
+    background-color: #F49C63;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-form button:hover {
+    background-color: #F49C63;
+}
+
+.register-form p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+/*end for register*/
