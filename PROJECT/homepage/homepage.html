@@ -41,13 +41,6 @@
         </header>
 
         <main>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
             <div class="slideshow">
                 <div class="slide">
                     <img src="images/slider/pet1.jpeg" alt="pet 1" style="width: 100%;">
@@ -58,19 +51,23 @@
                 <div class="slide">
                     <img src="images/slider/pet3.jpeg" alt="pet 3" style="width: 100%;">
                 </div>
-                <a class="prev">&#10094</a>
-                <a class="next">&#10095</a>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
 
             <div style="text-align: center;">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
             </div>
             
             <br></main>
 
             <section class="row">
+                <article class="column">
+                    <h1>Get the best care for your pets</h1>
+                    <p>Consult veterinarians and other professionals about the health, grooming, training of your pet and dietary requirements.</p>
+                </article>
                 <article class="column">
                     <h1>Get the best care for your pets</h1>
                     <p>Consult veterinarians and other professionals about the health, grooming, training of your pet and dietary requirements.</p>
@@ -82,6 +79,8 @@
         <footer>
             Pet Connect &copy; 2024
         </footer>
+
+        <script src="script.js"></script>
     </body>
 </html>
 
