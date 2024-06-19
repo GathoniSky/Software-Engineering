@@ -1,19 +1,36 @@
+<<<<<<< HEAD
 /* vet questions */
 header{
     background-color: #F49C63;
     color: #3E393A;
+=======
+/* Wayne's Code */
+header{
+    background-color: #F49C63;
+    color: #3E393A;
+
+>>>>>>> 038f823eb3b6e6f8f905a49d19b4c86028dbdd75
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
+<<<<<<< HEAD
     display: flex;
     justify-content: space-between;
     align-items: center;
+=======
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+>>>>>>> 038f823eb3b6e6f8f905a49d19b4c86028dbdd75
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1;
+<<<<<<< HEAD
     transition: top 0.3s;
 }
 
@@ -110,11 +127,201 @@ header{
   
   button[type="submit"] {
     background-color: #333;
+=======
+
+    transition: top 0.3s;
+}
+
+div img{
+    border-radius: 10px;
+}
+
+a img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu a{
+    color: #3E393A; 
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 2px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.menu a:hover{
+    color: #ffffff;
+    background-color: #3E393A;
+    border-color: #3E393A;
+}
+
+.aboutus a{
+    color: #3E393A;
+    border-radius: 30px;
+    border-width: 2px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.aboutus a:hover{
+    color: #ffffff;
+    background-color: #3E393A;
+    border-color: #3E393A;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.slideshow{
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+    padding-top: 100px;
+}
+
+.slide {
+    display: none;
+}
+
+.prev, .next{
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 18px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    transition: 0.6s ease;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dot{
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover{
+    background-color: #717171;
+}
+
+.row, .steps{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    background-color: #F49C63;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.column {
+    padding: 80px 20px 20px;
+}
+
+footer{
+    background-color: #3E393A;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+/*End of Wayne's code*/
+
+
+
+
+/* Alex start for login*/
+
+
+.container {
+    max-width: 00px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+    background-color: #f8f9fa;
+    padding: 24px;
+    border-radius: 5px;
+}
+
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="email"], input[type="password"] {
+    width: 530px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    background-color: #F49C63;
+>>>>>>> 038f823eb3b6e6f8f905a49d19b4c86028dbdd75
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+<<<<<<< HEAD
   }
   
   button[type="submit"]:hover {
@@ -139,3 +346,69 @@ header{
   footer a:hover {
     color: #ccc;
   }
+=======
+}
+
+button[type="submit"]:hover {
+    background-color: #F49C63;
+}
+
+/*end for login*/
+
+
+/*start for register*/
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.register-form {
+    background-color: #f8f9fa;
+    padding: 28px;
+    border-radius: 5px;
+}
+
+.register-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.register-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form label {
+    margin-bottom: 5px;
+}
+
+.register-form input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.register-form button {
+    background-color: #F49C63;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-form button:hover {
+    background-color: #F49C63;
+}
+
+.register-form p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+/*end for register*/
+>>>>>>> 038f823eb3b6e6f8f905a49d19b4c86028dbdd75
