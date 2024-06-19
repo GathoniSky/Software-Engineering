@@ -14,7 +14,7 @@
         <header class="header">
             <div class="Logo">
                 <a href="homepage.html">
-                    <img id="logo" src="images/logo.png" alt="Logo">
+                    <img id="logo" src="homepage/images/logo.png" alt="Logo">
                 </a>
             </div>
 
@@ -25,18 +25,86 @@
                     </a>
                 </div>
             </nav>
-            <nav class="menu">
-                <a href="login.html">
-                    <i class="fas fa-home"></i> Login 
-                </a>
-                <a href="register.html">
-                    <i class="fas fa-home"></i> Register 
-                </a>
-                <a href="vetregister.html">
-                    <i class="fas fa-home"></i> Vet Register
-                </a>
-                
-            </nav>
+            <div class="sidebar">
+                <div class="logo">
+                    <img src="logo.png" alt="Myfurries Logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Ipsum</a></li>
+                        <li><a href="#">Dolor</a></li>
+                        <li><a href="#">Ipsum</a></li>
+                        <li><a href="#">Dolor</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main-content">
+                <header>
+                    <div class="greeting">
+                        <h1>Hey Doc,</h1>
+                        <div class="profile-pic">
+                            <img src="doctor.jpg" alt="John Doe">
+                            <p>John Doe</p>
+                        </div>
+                    </div>
+                    <div class="notifications">
+                        <img src="bell-icon.png" alt="Notifications">
+                        <img src="user-icon.png" alt="User Profile">
+                    </div>
+                </header>
+                <div class="overview">
+                    <div class="profile-card">
+                        <h3>Profile</h3>
+                        <img src="doctor.jpg" alt="Doctor">
+                        <p>Name: John Doe</p>
+                        <p>Email: john@myfurries.com</p>
+                        <p>Address: Sector-4, Noida</p>
+                        <button>Update profile</button>
+                    </div>
+                    <div class="consultations-card">
+                        <h3>Consultations</h3>
+                        <p>Total done: 145</p>
+                        <p>Pending: 11</p>
+                        <button>View all</button>
+                    </div>
+                    <div class="new-consultations-card">
+                        <h3>New Consultation today</h3>
+                        <ul>
+                            <li>Rahul Mahotra - Sula (Allergies)</li>
+                            <li>Vijay Garg - Tommy (Wheat intolerance)</li>
+                            <li>Ramesh Kumar - Shelly (Fleas and ticks)</li>
+                            <li>Sunesh Kumar - Lucy (Vaccinations to be inoculated)</li>
+                        </ul>
+                        <button>View & Manage</button>
+                    </div>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>by pet parent</th>
+                            <th>for (Name)</th>
+                            <th>Category</th>
+                            <th>Date received</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Ramesh</td>
+                            <td>Cat (Lucy)</td>
+                            <td>Allergy</td>
+                            <td>17 Dec 2020</td>
+                            <td>Pending</td>
+                        </tr>
+                        <!-- Add more rows as needed -->
+                    </tbody>
+                </table>
+            </div>
+        </body>
         </header>
 
         <main>

@@ -148,6 +148,15 @@ a img{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.services{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.services img{
+    max-width: 180px;
+}
+
 .column {
     padding: 80px 20px 20px;
 }
