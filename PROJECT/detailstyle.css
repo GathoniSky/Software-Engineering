@@ -243,4 +243,20 @@ footer {
 
 
   /*Resi*/
+.questions{
+  padding: 70px;
+  border-radius: 10%;
+  border: #333;
+  outline-color: #3E393A;
+  outline-style: solid;
+}
+.details{
+  padding: 75px;
+  border-radius: 10%;
+  border: #333;
+  outline-color: #3E393A;
+  outline-style: solid;
+}
+
+
   /*Resi*/
