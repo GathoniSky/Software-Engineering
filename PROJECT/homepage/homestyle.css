@@ -137,6 +137,10 @@ a img{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.steps{
+    background-color: #fff;
+}
+
 .column {
     padding: 80px 20px 20px;
 }
