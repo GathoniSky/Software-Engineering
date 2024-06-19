@@ -149,9 +149,12 @@ a img{
 }
 
 .services{
-    padding-left: 500px;
-    font-size: 30px;
+    font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.services img{
+    max-width: 180px;
 }
 
 .column {
@@ -291,8 +294,6 @@ button[type="submit"]:hover {
 /*end for register*/
 
 
-<<<<<<< HEAD
-=======
 
 /* Vet Register */
 
@@ -396,4 +397,3 @@ input[type="file"] {
 }
 
 /*End of Register*/
->>>>>>> f06b05589d56582085dac861420cf0b04a0d32db
