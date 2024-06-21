@@ -175,6 +175,23 @@ a img{
     padding: 80px 20px 20px;
 }
 
+.ourteam{
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+#ourteam{
+    padding: 20px 20px;
+}
+
+.ourteam img{
+    max-width: 100px;
+    border-radius: 50%;
+}
+
 footer{
     background-color: #3E393A;
     color: white;
