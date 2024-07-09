@@ -133,12 +133,63 @@ a img{
     padding: 20px;
     background-color: #F49C63;
     border-radius: 20px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.steps{
+    padding-top: 0px;
+    background-color: #fff;
+    border-style: solid;
+}
+
+.heading{
+    padding-left: 220px;
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.ourservices{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 500px;
+    padding-bottom: 0px;
+}
+
+.services{
+    padding-left: 350px;
+    display: flex;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.services img{
+    max-width: 180px;
+}
+
+#connectmap{
+    padding-left: 50px;
+}
+
 .column {
     padding: 80px 20px 20px;
+}
+
+.ourteam{
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+#ourteam{
+    padding: 20px 20px;
+}
+
+.ourteam img{
+    max-width: 100px;
+    border-radius: 50%;
 }
 
 footer{
@@ -271,5 +322,109 @@ button[type="submit"]:hover {
 
 
 
-
 /*end for register*/
+
+
+
+/* Vet Register */
+
+.registration-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 150px; /* Adjust margin for fixed header */
+}
+
+.registration-container h2 {
+    color: #3E393A;
+    text-align: center;
+}
+
+.registration-container p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.registration-form fieldset {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.registration-form legend {
+    font-weight: bold;
+    color: #F49C63;
+}
+
+.registration-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #3E393A;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="tel"],
+.registration-form input[type="password"],
+.registration-form input[type="file"],
+.registration-form select {
+    width: calc(100% - 22px); /* Ensure it fits within padding */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #3E393A;
+}
+
+.registration-form input[type="text"]:focus,
+.registration-form input[type="email"]:focus,
+.registration-form input[type="tel"]:focus,
+.registration-form input[type="password"]:focus,
+.registration-form select:focus {
+    border-color: #F49C63;
+    outline: none;
+}
+
+.registration-form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.registration-form button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F49C63;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.registration-form button:hover {
+    background-color: #F37035;
+}
+
+/* Ensure file input consistency */
+input[type="file"] {
+    border: none;
+    margin-bottom: 20px;
+}
+
+/* Styling for Terms and Conditions */
+.registration-form a {
+    color: #F49C63;
+    text-decoration: none;
+}
+
+.registration-form a:hover {
+    text-decoration: underline;
+}
+
+/*End of Register*/
