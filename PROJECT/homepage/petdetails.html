@@ -1,0 +1,105 @@
+Here's the updated code with the "Species" dropdown removed and the header color changed to dark orange:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head class="head">
+    <title>Pet Connect</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Wayne Mogere, Alex Samuel, Khalif Abdullahi, Lesly Mwangi, Roman Ademba, Sky Gathoni, and William Macharia.">
+    <meta name="description" content="Our mission: To connect pet owners with vets">
+    <meta name="keywords" content="pets">
+    <meta name="charset" content="UTF-8">
+    <link rel="shortcut icon" href="./images/logo.png">
+    <link rel="stylesheet" href="detailstyle.css">
+    <style>
+        .header {
+            padding: 10px; /* Reduce padding to make the header smaller */
+            background-color: #FF8C00; /* Change background color to dark orange */
+            border-bottom: 1px solid #ccc;
+        }
+        .logo img {
+            width: 50px; /* Adjust the width to make the logo smaller */
+            height: auto;
+        }
+        .menu a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        .footer {
+            padding: 5px; /* Reduce padding to make the footer smaller */
+            background-color: #f8f8f8;
+            border-top: 1px solid #ccc;
+            text-align: center;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+<header class="header">
+    <div class="logo">
+        <img src="./images/logo.png" alt="Logo">
+    </div>
+    <nav class="menu">
+        <a href="useraccount.html">
+            <i class="fas fa-home"></i> User Account
+        </a>
+        <a href="petquestions.html">
+            <i class="fas fa-home"></i> Pet Questions
+        </a>
+        <a href="login.html">
+            <i class="fas fa-sign-in-alt"></i> Login
+        </a>
+    </nav>
+</header>
+<br>
+<br>
+<br>
+<br>
+
+<main>
+    <h1>Pet Details Form</h1>
+    <form>
+        <label for="petName">Pet Name:</label>
+        <input type="text" id="petName" name="petName"><br><br>
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br><br>
+        
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="">Select</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Unknown">Unknown</option>
+        </select><br><br>
+        
+        <label for="breed">Breed:</label>
+        <input type="text" id="breed" name="breed"><br><br>
+        
+        <label for="weight">Weight (kg):</label>
+        <input type="number" id="weight" name="weight"><br><br>
+        
+        <label for="color">Color:</label>
+        <input type="text" id="color" name="color"><br><br>
+        
+        <input type="submit" value="Submit">
+        <a href="petdetails.html"><button type="button">Add</button></a> <!-- Link to another pet details page -->
+    </form>
+    <a href="login.html"><button type="button">Login</button></a>
+</main>
+
+<footer class="footer">
+    Pet Connect &copy; 2024
+</footer>
+
+<script>
+function addPetDetails() {
+    // Function to handle adding pet details.
+    alert("Add Pet Details function called");
+}
+</script>
+</body>
+</html>
+```

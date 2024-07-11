@@ -133,16 +133,63 @@ a img{
     padding: 20px;
     background-color: #F49C63;
     border-radius: 20px;
-    font-size: 30px;
+    font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .steps{
+    padding-top: 0px;
     background-color: #fff;
+    border-style: solid;
+}
+
+.heading{
+    padding-left: 220px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ourservices{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 500px;
+    padding-bottom: 0px;
+}
+
+.services{
+    padding-left: 350px;
+    display: flex;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.services img{
+    max-width: 180px;
+}
+
+#connectmap{
+    padding-left: 50px;
 }
 
 .column {
     padding: 80px 20px 20px;
+}
+
+.ourteam{
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+#ourteam{
+    padding: 20px 20px;
+}
+
+.ourteam img{
+    max-width: 100px;
+    border-radius: 50%;
 }
 
 footer{
