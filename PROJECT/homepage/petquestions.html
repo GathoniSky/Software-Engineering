@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <title>Pet Connect</title>
         <meta charset="UTF-8">
         <meta name="author" content="Wayne Mogere, Alex Samuel, Khalif Abdullahi,Lesly Mwangi, Roman Ademba, Sky Gathoni and William Macharia.">
@@ -23,11 +24,26 @@
     </a>
 </nav>
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pet Connect</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Wayne Mogere, Alex Samuel, Khalif Abdullahi, Lesly Mwangi, Roman Ademba, Sky Gathoni, and William Macharia">
+    <meta name="description" content="Our mission: To connect pet owners with vets">
+    <meta name="keywords" content="pets">
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="detailstyle.css">
+>>>>>>> e45ae7b153ad0d707fc3063b932cd4dac6218fb9
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
+
+
+    <header  class="header">
+        <div style="display: flex;"class="logo">
             <a href="homepage.html">
+<<<<<<< HEAD
                 <img id="logo" src="images/logo.jpg" alt="logo">
             </a>
   </header>
@@ -97,10 +113,98 @@
         <button type="submit" style="background-color: rgb(41, 41, 208); " >
             Submit
         </button>
+=======
+                <img id="logo" src="images/logo.png" alt="logo">
+            </a>
+            <nav style="text-align: right;">
+                <a href="homepage.html">
+                    <i class="fas fa-home"></i> log out
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- main content -->
+    <main style="padding: 10px;">
+>>>>>>> e45ae7b153ad0d707fc3063b932cd4dac6218fb9
         <br>
         <br>
-        <form method="post" action="php/report.php"></form>
-    
-        
-    </body>
-    </html>
+        <br>
+        <h2 style="text-align: center;">Pet Health Questionnaire</h2>
+        <h3>Please answer the following questions about your pet</h3>
+        <section>
+            <h4>
+                Pet's Name: <input type="text" name="pet_name">
+                Pet's Age: <input type="number" name="pet_age" id="number">
+                Breed: <input type="text" name="breed" id="breed">
+            </h4>
+            <p>
+                Please answer the following questions about your pet's health and behavior.
+            </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 200px;"></th>
+                        <th>Yes</th>
+                        <th>No</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="text-align: center; background-color: lightgray;">
+                        <td>1. Has your pet been vomiting or having diarrhea recently?</td>
+                        <td><input type="checkbox" name="q1_yes"></td>
+                        <td><input type="checkbox" name="q1_no"></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>2. Has your pet been showing signs of pain or discomfort?</td>
+                        <td><input type="checkbox" name="q2_yes"></td>
+                        <td><input type="checkbox" name="q2_no"></td>
+                    </tr>
+                    <tr style="text-align: center; background-color: lightgray;">
+                        <td>3. Has your pet been having trouble eating or drinking?</td>
+                        <td><input type="checkbox" name="q3_yes"></td>
+                        <td><input type="checkbox" name="q3_no"></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>4. Has your pet been experiencing any changes in appetite or water intake?</td>
+                        <td><input type="checkbox" name="q4_yes"></td>
+                        <td><input type="checkbox" name="q4_no"></td>
+                    </tr>
+                    <tr style="text-align: center; background-color: lightgray;">
+                        <td>5. Has your pet been showing signs of anxiety or stress?</td>
+                        <td><input type="checkbox" name="q5_yes"></td>
+                        <td><input type="checkbox" name="q5_no"></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>6. Has your pet been experiencing any skin problems or allergies?</td>
+                        <td><input type="checkbox" name="q6_yes"></td>
+                        <td><input type="checkbox" name="q6_no"></td>
+                    </tr>
+                    <tr style="text-align: center; background-color: lightgray;">
+                        <td>7. Has your pet been having trouble breathing or coughing?</td>
+                        <td><input type="checkbox" name="q7_yes"></td>
+                        <td><input type="checkbox" name="q7_no"></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>8. Has your pet been experiencing any changes in behavior or mood?</td>
+                        <td><input type="checkbox" name="q8_yes"></td>
+                        <td><input type="checkbox" name="q8_no"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <button type="submit" style="background-color: rgb(41, 41, 208);">
+                Submit
+            </button>
+            <br>
+            <br>
+            <form method="post" action="php/report.php"></form>
+        </section>
+    </main>
+
+    <br><br><br><br><br>
+    <footer>
+        Pet Connect &copy; 2024
+    </footer>
+</body>
+</html>
