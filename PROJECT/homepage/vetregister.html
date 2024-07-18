@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head class="head">
+        <title>Pet Connect</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Wayne Mogere, Alex Samuel, Khalif Abdullahi,Lesly Mwangi, Roman Ademba, Sky Gathoni and William Macharia.">
+        <meta name="description" content="Our mission: To connect pet owners with vets">
+        <meta name="keywords" content="pets">
+        <meta name="charset" content="UTF-8">
+        <link rel="shortcut icon" href="images/logo.png">
+        <link rel="stylesheet" href = "homestyle.css">
+    </head>
+<body>
+    <header class="header">
+        <div class="Logo">
+            <a href="homepage.html">
+                <img id="logo" src="images/logo.png" alt="Logo">
+            </a>
+        </div>
+        <nav class="aboutus">
+            <a href="aboutus.html">
+                <i class="fas fa-info-circle"></i> About Us
+            </a>
+        </nav>
+        <nav class="menu">
+            <a href="login.html">
+                <i class="fas fa-sign-in-alt"></i> Login
+            </a>
+            <a href="register.html">
+                <i class="fas fa-user-plus"></i> Register
+            </a>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="registration-container">
+            <h2>Register as a Veterinarian</h2>
+            <p>Join Pet Connect to expand your practice by connecting with pet owners.</p>
+            <form class="registration-form" action="submit_vet_registration" method="POST" enctype="multipart/form-data">
+                <!-- Personal Information -->
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </fieldset>
+
+                <!-- Professional Information -->
+                <fieldset>
+                    <legend>Professional Information</legend>
+                    <label for="license">License Number:</label>
+                    <input type="text" id="license" name="license" required>
+                    
+                    <label for="experience">Years of Experience:</label>
+                    <input type="number" id="experience" name="experience" required>
+                    
+                    <label for="specializations">Specializations:</label>
+                    <select id="specializations" name="specializations" multiple required>
+                        <option value="surgery">Surgery</option>
+                        <option value="dermatology">Dermatology</option>
+                        <option value="dentistry">Dentistry</option>
+                        <option value="cardiology">Cardiology</option>
+                        <option value="neurology">Neurology</option>
+                        <option value="nutrition">Nutrition</option>
+                    </select>
+                    
+                    <label for="clinic-name">Clinic Name:</label>
+                    <input type="text" id="clinic-name" name="clinic-name" required>
+                    
+                    <label for="clinic-address">Clinic Address:</label>
+                    <input type="text" id="clinic-address" name="clinic-address" required>
+                    
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" required>
+                    
+                    <label for="state">State:</label>
+                    <input type="text" id="state" name="state" required>
+                    
+                    <label for="zip">Zip Code:</label>
+                    <input type="text" id="zip" name="zip" required>
+                    
+                    <label for="clinic-phone">Clinic Phone Number:</label>
+                    <input type="tel" id="clinic-phone" name="clinic-phone" required>
+                    
+                    <label for="clinic-email">Clinic Email Address:</label>
+                    <input type="email" id="clinic-email" name="clinic-email" required>
+                    
+                    <label for="certification">Upload Certification Documents:</label>
+                    <input type="file" id="certification" name="certification" accept=".pdf,.doc,.docx" required>
+                </fieldset>
+
+                <!-- Availability -->
+                <fieldset>
+                    <legend>Availability</legend>
+                    <label for="hours">Hours of Operation:</label>
+                    <input type="text" id="hours" name="hours" required>
+                    
+                    <label for="days">Days Available:</label>
+                    <input type="text" id="days" name="days" required>
+                </fieldset>
+
+                <!-- Profile Picture -->
+                <fieldset>
+                    <legend>Profile Picture</legend>
+                    <label for="profile-picture">Upload Profile Picture:</label>
+                    <input type="file" id="profile-picture" name="profile-picture" accept="image/*">
+                </fieldset>
+
+                <!-- Terms and Conditions -->
+                <fieldset>
+                    <legend>Terms and Conditions</legend>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the <a href="terms.html">terms and conditions</a>.</label>
+                </fieldset>
+
+                <!-- Submit Button -->
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Pet Connect &copy; 2024</p>
+    </footer>
+</body>
+</html>
