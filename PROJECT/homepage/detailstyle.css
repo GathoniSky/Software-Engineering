@@ -119,13 +119,10 @@ main {
 }
 
 footer {
-    background-color: #3E393A;
-    color: #F49C63;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  background-color: #3E393A;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
 
