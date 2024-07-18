@@ -34,6 +34,38 @@ function showSlides(n) {
 //End of Wayne's Code
 
 //start of Ski's code
+const express = require('express');
+const mysql = require('mysql2');
+const app = express();
+const port = 3000;
+
+// Create a connection to the database
+const db = mysql.createConnection({
+  host: 'localhost',
+  user: 'root',
+  password: '',
+  database: 'se'
+});
+
+db.connect(err => {
+  if (err) {
+    throw err;
+  }
+  console.log('MySQL Connected...');
+});
+
+// Endpoint to get consultations
+app.get('/api/petquestions', (req, res) => {
+  const sql = 'SELECT * FROM petquestions';
+  db.query(sql, (err, results) => {
+    if (err) throw err;
+    res.json(results);
+  });
+});
+
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
+});
 
 
 //end of ski's code
