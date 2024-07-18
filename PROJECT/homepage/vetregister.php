@@ -21,6 +21,7 @@ if($conn->query($sql) === TRUE){
     header("location: vetaccount.html");
 }else{
     echo "something went wrong";
+    header('location: vetregister.html');
 }
 
 ?>
