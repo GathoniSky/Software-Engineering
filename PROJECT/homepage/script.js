@@ -32,3 +32,8 @@ function showSlides(n) {
 
 
 //End of Wayne's Code
+
+//start of Ski's code
+
+
+//end of ski's code
