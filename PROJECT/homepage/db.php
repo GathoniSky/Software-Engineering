@@ -3,7 +3,7 @@
 $host = "localhost";
 $user = "root";
 $password = "";
-$dbname = "se";
+$dbname = "pet_connect";
 $conn= new mysqli($host,$user,$password,$dbname);
 
 if($conn->connect_error){

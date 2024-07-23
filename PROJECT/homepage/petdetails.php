@@ -12,7 +12,7 @@ $color = $_POST['color'];
 $sql = "INSERT INTO petdetails (`name`,`age`,`gender`,`breed`,`weight`,`color`) 
 VALUES ('$name', '$age', '$gender', '$breed', '$weight', '$color')";
 if($conn->query($sql) === TRUE){
-    echo "Pet added successfully";
+    echo "Pet added successfully <a href='petdetails.html'> Go back </a>";
 }else{
     echo "something went wrong";
 }

@@ -23,7 +23,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo "Login successful!";
 
             header('location:useraccount.html');
-        exit();
 
         } else {
             echo "Invalid password.";
